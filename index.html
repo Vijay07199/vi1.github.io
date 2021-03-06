@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="res.js"></script>
+    
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="hd">
+        <nav class=>
+            <div class="logo">
+                PORTFO<span>LIO</span>
+            </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">Skills</a>
+                <a href="#">Services</a>
+                <a href="#">Contact US</a>
+            </div>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+        <div class="text">
+            <p>Hello ,I am</p>
+            <h1>Vijay Verma</h1>
+            <p>And I'm a <span class="ani" style="color: #e74c3c;"></span></p>
+            <button class="c-btn">Hire me</button>
+        </div>
+    </header>
+    <section id="about">
+        <div class="section-info">
+            <h1>About</h1>
+            <p>Who I am?</p>
+        </div>
+        <div class="about-row">
+            <div class="about-left-col">
+                <img src="img/vij.jpg" alt="ss">
+            </div>
+            <div class="about-right-col">
+                <p class="p-title">Hello, I am Vijay & I'm a <span class="ani2" style="color: #e74c3c;"></span></p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequuntur veniam omnis
+                    delectus quidem enim nesciunt fuga maxime corrupti dolor neque alias, aperiam eos, ea sapiente
+                    laborum quasi natus vero.
+                </p>
+                <button class="c-btn">Download CV</button>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="section-info">
+            <h1>Skill's</h1>
+            <p>Who I am?</p>
+        </div>
+        <div class="skill-row">
+            <div class="skill-left-col">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, architecto vitae, saepe illo earum et
+                    nemo veritatis odio ratione voluptatem, quo cumque voluptatibus. Similique, nulla aspernatur rem cum
+                    obcaecati provident?</p>
+                <button class="c-btn">Read More</button>
+            </div>
+            <div class="skill-right-col">
+                <div class="progress-div">
+                    <p>
+                        <span>HTML</span><br>
+                        <progress value="80" max="100"></progress>
+                        <span>80%</span>
+                    </p>
+                    <p>
+                        <span>CSS</span><br>
+                        <progress value="80" max="100"></progress>
+                        <span>80%</span>
+                    </p>
+                    <p>
+                        <span>JavaScript</span><br>
+                        <progress value="70" max="100"></progress>
+                        <span>70%</span>
+                    </p>
+                    <p>
+                        <span>CPP</span><br>
+                        <progress value="80" max="100"></progress>
+                        <span>80%</span>
+                    </p>
+                    <p>
+                        <span>Bootstrap</span><br>
+                        <progress value="80" max="100"></progress>
+                        <span>80%</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div class="section-info">
+            <h1>Services</h1>
+            <p>What we Provide</p>
+        </div>
+        <div class="services-row">
+            <div class="services-box" data-tilt>
+                <img src="/img/b2.png" alt="">
+                <h2>Web-Developer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, cupiditate!</p>
+            </div>
+            <div class="services-box" data-tilt>
+                <img src="/img/b2.png" alt="">
+                <h2>Web-Developer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, cupiditate!</p>
+            </div>
+            <div class="services-box" data-tilt>
+                <img src="/img/b2.png" alt="">
+                <h2>Web-Developer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, cupiditate!</p>
+            </div>
+        </div>
+
+    </section>
+    <section id="contact">
+        <div class="section-info" style="color: white;">
+            <h1>Services</h1>
+            <p style="color: black;">What we Provide</p>
+        </div>
+        <div class="contact-row">
+            <div class="contact-left-col">
+         <img src="img/b3.png" alt="">
+            </div>
+            <div class="contact-right-col">
+              <form action="">
+                  <h2>Connect with us</h2>
+                  <input type="text" name="" id="" placeholder="Name">
+                  <input type="email" placeholder="E-mail">
+                  <br>
+                  <textarea name="" id="" cols="40" rows="10" placeholder="Message"></textarea>
+                  <br>
+                  <button class="c-btn">Submit</button>
+              </form>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <h2>Developed by Vijay Verma</h2>
+        <img src="img/icon.png" alt="" width="100">
+    </section>
+    <script>
+        var animate=new Typed('.ani',
+        {
+            strings:["Front End Developer","Problem Solver","Programmer"],
+            typeSpeed:100,
+            backSpeed:100,
+            loop:true,
+        })
+    </script>
+    <script>
+        var animate=new Typed('.ani2',
+        {
+            strings:["Front End Developer","Problem Solver","Programmer"],
+            typeSpeed:100,
+            backSpeed:100,
+            loop:true,
+        })
+    </script>
+    <script src="js/tilt.jquery.min.js"></script>
+</body>
+
+</html>
